@@ -3,7 +3,7 @@
 
 namespace Hazel
 {
-	HAZEL_API class Application
+	class HAZEL_API Application
 	{
 	public:
 		Application();
@@ -12,6 +12,7 @@ namespace Hazel
 		void Run();
 	};
 
+	//To be defined in client
 	Application* CreateApplication();
 }
 

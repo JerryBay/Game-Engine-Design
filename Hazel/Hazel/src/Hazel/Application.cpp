@@ -4,7 +4,7 @@ namespace Hazel
 {
 	void Application::Run()
 	{
-
+		while (true);
 	}
 
 	Application::Application()
@@ -14,5 +14,7 @@ namespace Hazel
 
 	Application::~Application()
 	{
+
 	}
+
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include <stdio.h>
 
-//For user by Hazel application
+//For use by Hazel application
 #include "Hazel/Application.h"
 
 //Entry Point

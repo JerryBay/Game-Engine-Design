@@ -7,5 +7,5 @@
 		#define HAZEL_API _declspec(dllimport)
 	#endif // HZ_BUILD_DLL
 #else 
-	#error Hazel only support Windows!
+	#error Hazel only supports Windows!
 #endif //HZ_PLATFORM_WINDOWS
