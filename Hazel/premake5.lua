@@ -40,9 +40,9 @@ project "Hazel"
             "HZ_BUILD_DLL"
         }
 
-        postbuildcommands
+        postbuildcommands 
         {
-            {"{COPY} %{cfg.buildtarget.relpath} ../bin" ..outputdir .. "/Sandbox"}
+            {"{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/Sandbox/"}
         }
 
     filter "configurations:Debug"
