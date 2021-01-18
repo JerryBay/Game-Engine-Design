@@ -1,7 +1,10 @@
 #Directories
 .vs/
 bin/
-bin-inter/
+bin-int/
 
 #Files
+*.sln
 *.user
+*.vcxproj
+*.vcxproj.filters
